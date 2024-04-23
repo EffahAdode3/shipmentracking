@@ -15,7 +15,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/admin-Dashboard',
+      path: '/',
       name: 'AdminDashboard',
       component: AdminDashboard
     },
@@ -56,7 +56,7 @@ const router = createRouter({
       component: AddClient
     },
     {
-      path: '/',
+      path: '/login-admin',
       name: 'AdminLogin',
       component: AdminLogin
     },

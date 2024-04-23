@@ -30,17 +30,17 @@
   
   <script>
   export default {
-    mounted(){
-      let token = localStorage.getItem("token");
-      if(token == undefined){
-        this.$router.push('/');
-      }
-    },
+    // mounted(){
+    //   let token = localStorage.getItem("token");
+    //   if(token == undefined){
+    //     this.$router.push('/');
+    //   }
+    // },
 
     methods: {
       logout(){
         localStorage.clear();
-        this.$router.push('/');
+        this.$router.push('/login-admin');
       },
     },
 

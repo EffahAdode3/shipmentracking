@@ -113,7 +113,7 @@
             if (res.status === 200) {
               localStorage.setItem('token', res.data.token)     
               this.logedIn = true;
-              this.$router.push('/admin-Dashboard');
+              this.$router.push('/');
               console.log('Login Successful'); 
             }
           })             

@@ -97,7 +97,7 @@ mounted() {
           .post(`${base_url}/addshipment`, { item_name:this. item_name,  statuses:this.statuses, client_id:this.client_id })
           .then((res) => {
             this.success = res.data.message;
-            this.$router.push('/admin-Dashboard');
+            this.$router.push('/');
             if (res.status === 201) {
               this.registerSucceful = true
               console.log(this.success);

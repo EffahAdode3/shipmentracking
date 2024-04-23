@@ -89,7 +89,7 @@ export default {
           password: this.password,      
           })
           .then((res) => {
-            this.$router.push('/admin-Dashboard');
+            this.$router.push('/');
             // this.success = res.data.message;
             if (res.status === 201) {
               this.registerSucceful = true

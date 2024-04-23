@@ -61,7 +61,7 @@ export default {
         axios
           .patch(`${base_url}/updateShipment/${ this.shipment_id }`, { item_name:this. item_name,  statuses:this.statuses})
           .then((res) => {
-            this.$router.push('/admin-Dashboard');
+            this.$router.push('/');
             if (res.status === 201) { 
               this.registerSucceful = true
               console.log(this.success);

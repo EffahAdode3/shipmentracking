@@ -116,7 +116,7 @@ passwordRules: [
         axios
           .post(`${base_url}/signup`, { firstName: this.firstName, lastName: this.lastName, email: this.email, phoneNumber: this.phoneNumber, password: this.password })
           .then((res) => {
-            this.$router.push('/admin-Dashboard');
+            this.$router.push('/');
             if (res.status === 201) {
               this.registerSucceful = true
             }
