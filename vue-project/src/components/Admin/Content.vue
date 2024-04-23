@@ -89,11 +89,10 @@
         }
      },
      created(){
-         axios.get(`${base_url}/shipment`
+         axios.get(`${base_url}/shipment` )
             // headers: {
             //     token: localStorage.getItem("token")
             // }
-         )
            .then((response) => {
              this.shipments = response.data.allShipment;
              console.log(this.shipments);
