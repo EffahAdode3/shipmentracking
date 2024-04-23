@@ -1,15 +1,17 @@
 <template>
-    <v-card>
+    <v-card style="z-index: 999;">
       <v-layout>
         <v-navigation-drawer
           expand-on-hover
           rail
+          style="z-index: 9999;"
         >
           <v-list>
             <v-list-item
               prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
               subtitle="sandra_a88@gmailcom"
               title="Sandra Adams"
+
             ></v-list-item>
           </v-list>
           <v-divider></v-divider>

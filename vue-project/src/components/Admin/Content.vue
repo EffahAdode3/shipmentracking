@@ -2,7 +2,7 @@
 <template>
     <div>
         <v-container style="margin-top: 100px">
-        <v-row>
+        <v-row justify="end">
             <v-col>
                 <v-card
                     subtitle="Total shipment orders"
@@ -125,7 +125,7 @@
 }
 .custom-card {
   max-width: 300px; /* Set the desired max-width */
-  margin: 0 auto; /* Center the card horizontally */
+  margin: 0 10px 0 auto; /* Center the card horizontally */
 }
 
 </style>
