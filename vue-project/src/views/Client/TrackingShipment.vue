@@ -80,7 +80,7 @@ export default {
 },
 methods: {
     submit() {
-         axios.put(`${base_url}/tracking`, { tracking_Number:this.tracking_Number})
+         axios.put(`${base_url}/client/tracking`, { tracking_Number:this.tracking_Number})
            .then((response) => {
              this.shipments = response.data.find_tracking_Number;
              this.showTable = true;

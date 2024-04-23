@@ -101,10 +101,10 @@
     methods: {
       fetchClients() {
         // Example API call using axios
-    o
+
     },   
      created(){
-         axios.get(`${base_url}/client_Dashboard`, {
+         axios.get(`${base_url}/client/client_Dashboard`, {
             headers: {
                 token: localStorage.getItem("token")
             }

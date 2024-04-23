@@ -83,7 +83,7 @@ export default {
 
 mounted() {
   axios
-    .get(`${base_url}/allClient`)
+    .get(`${base_url}/client/allClient`)
     .then((res) => {
     this.clientOptions = res.data.clients   
     })

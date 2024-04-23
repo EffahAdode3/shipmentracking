@@ -113,7 +113,7 @@
           methods: {
       login() {
         axios
-          .post(`${base_url}/loginClient`, {email: this.loginData.email,
+          .post(`${base_url}/client/loginClient`, {email: this.loginData.email,
       password: this.loginData.password,})
           .then((res) => {
            
