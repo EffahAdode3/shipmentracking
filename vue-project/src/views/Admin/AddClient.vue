@@ -84,7 +84,7 @@ export default {
   methods: {
     submit() {
         axios
-          .post(`${base_url}/signupClient`, { fullName: this.fullName,
+          .post(`${base_url}/client/signupClient`, { fullName: this.fullName,
             company: this.company, email: this.email, 
           password: this.password,      
           })
