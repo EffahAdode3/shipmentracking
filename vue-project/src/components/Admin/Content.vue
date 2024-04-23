@@ -8,6 +8,7 @@
                     subtitle="Total shipment orders"
                     :text="totalShipments"
                     title="TOTAL SHIPTMENTS"
+                    class="custom-card"
                 ></v-card>
             </v-col>
             <v-col>
@@ -15,6 +16,7 @@
                     subtitle="Total items delivered"
                     :text="totalDeliveries"
                     title="DELIVERIES"
+                    class="custom-card"
                 ></v-card>
             </v-col>
             <v-col>
@@ -22,6 +24,7 @@
                     subtitle="Total shipment sent out for delivery"
                     :text="totalOutForDelivery"
                     title="OUT FOR DELIVERY"
+                    class="custom-card"
                 ></v-card>
             </v-col>
         </v-row>
@@ -120,6 +123,9 @@
   max-width: 70%; 
   padding-top: 50px;
 }
-
+.custom-card {
+  max-width: 300px; /* Set the desired max-width */
+  margin: 0 auto; /* Center the card horizontally */
+}
 
 </style>
