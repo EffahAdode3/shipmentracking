@@ -4,15 +4,15 @@
       <component :is="Nav"></component>
       <component :is="Sidebar"></component>
       
-      <v-container style="margin-top: 100px; display: flex; justify-content: center;">
-    <v-card v-for="(view, index) in Views" :key="index" class="mb-4 custom-card" @click="navigateToClient(view.id)">
-      <v-card-title style="cursor: pointer;">{{ view.fullName }}</v-card-title>
-      <v-card-text>
-        <div>Company: {{ view.company }}</div>
-        <div>Email: {{ view.email }}</div>
-      </v-card-text>
-    </v-card>
-  </v-container>
+      <v-container style="margin-top: 100px">
+        <v-card v-for="(view, index) in Views" :key="index" class="mb-4" @click="navigateToClient(view.id)">
+          <v-card-title style="cursor: pointer;">{{ view.fullName }}</v-card-title>
+          <v-card-text>
+            <div>Company: {{ view.company }}</div>
+            <div>Email: {{ view.email }}</div>
+          </v-card-text>
+        </v-card>
+      </v-container>
     </div>
   </template>
   
@@ -54,9 +54,4 @@
   };
   </script>
 
-<style>
-.custom-card {
-  max-width: 300px; /* Set the desired max-width */
-  margin: 0 auto; /* Center the card horizontally */
-}
-</style>
+  
