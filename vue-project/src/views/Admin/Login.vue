@@ -109,11 +109,11 @@
           .post(`${base_url}/LoginAdmin`, {email: this.loginData.email,
       password: this.loginData.password,})
           .then((res) => {      
-          console.log('Response:', res);
+          // console.log('Response:', res);
             if (res.status === 200) {
               localStorage.setItem('token', res.data.token)     
               this.logedIn = true;
-              this.$router.push('/');
+              this.$router.push('/Dashboard');
               console.log('Login Successful'); 
             }
           })             

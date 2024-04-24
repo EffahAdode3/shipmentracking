@@ -15,9 +15,14 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/Dashboard',
       name: 'AdminDashboard',
       component: AdminDashboard
+    },
+    {
+      path: '/',
+      name: 'AdminLogin',
+      component: AdminLogin
     },
     {
       path: '/update-shipment/:id',
@@ -55,11 +60,7 @@ const router = createRouter({
       name: 'AddClient',
       component: AddClient
     },
-    {
-      path: '/login-admin',
-      name: 'AdminLogin',
-      component: AdminLogin
-    },
+  
     {
       path: '/login-client',
       name: 'ClientLogin',

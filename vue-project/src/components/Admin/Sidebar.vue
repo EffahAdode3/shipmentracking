@@ -16,7 +16,7 @@
           </v-list>
           <v-divider></v-divider>
           <v-list density="compact" nav>
-            <v-list-item prepend-icon="mdi-folder" to="/" title="Dashboard" value="myfiles"></v-list-item>
+            <v-list-item prepend-icon="mdi-folder" to="/Dashboard" title="Dashboard" value="myfiles"></v-list-item>
             <v-list-item  prepend-icon="mdi-account-multiple"  to="/add-client" title="Add Client" value="shared"></v-list-item>
             <v-list-item  prepend-icon="mdi-account-multiple"  to="/view-all" title="View Client" value="shared"></v-list-item>
             <v-list-item  prepend-icon="mdi-folder" to="/add-Shipment" title="Add Shipment" value="myfiles"></v-list-item>       
@@ -32,17 +32,17 @@
   
   <script>
   export default {
-    // mounted(){
-    //   let token = localStorage.getItem("token");
-    //   if(token == undefined){
-    //     this.$router.push('/');
-    //   }
-    // },
+    mounted(){
+      let token = localStorage.getItem("token");
+      if(token == undefined){
+        this.$router.push('/');
+      }
+    },
 
     methods: {
       logout(){
         localStorage.clear();
-        this.$router.push('/login-admin');
+        this.$router.push('/');
       },
     },
 
