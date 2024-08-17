@@ -30,7 +30,7 @@ Notifications
 
         Installation
 
-1 Clone the repository:  https://github.com/EffahAdode3/Systemtracking.git
+1 Clone the repository: https://github.com/EffahAdode3/shipmentracking.git
 
 2. Navigate to the project directory:   cd vue-project
 
