@@ -58,12 +58,13 @@ Frontend
 Vue.js (Preferred) or any other frontend framework with state management.
 Backend
 
-Node.js for RESTful API development.
-Database
 
-MySQL for data storage and management.
-Additional Tools
+Installation
 
-Axios for API calls.
-JWT for secure authentication.
-Nodemailer for sending email notifications.
+1 Clone the repository:  https://github.com/EffahAdode3/Systemtracking.git
+
+2. Navigate to the project directory:   cd vue-project
+
+3. Install backend dependencies: npm install
+
+4. Run the frontend server:  npm run dev
