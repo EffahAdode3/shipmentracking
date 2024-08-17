@@ -41,9 +41,10 @@ User Authentication
 
 2 Clients can enter a tracking number to view the current status and location of their shipments.
 
-Admin Panel
-1 A dashboard for admin users to manage shipments.
-2 Admins can add new shipments, update details, and mark shipments as delivered.
+
+3 A dashboard for admin users to manage shipments.
+
+4 Admins can add new shipments, update details, and mark shipments as delivered.
 Notifications
 
 Generate detailed reports on shipment statuses, delivery times, and more.
