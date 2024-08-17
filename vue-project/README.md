@@ -29,7 +29,7 @@ npm run build
 ```
 
 
-
+Frontend Shipment Tracking System
 Shipment Tracking System
 Description
 The Shipment Tracking System is a web application designed to streamline the process of tracking shipments. The system enables both staff members and clients to monitor the status and location of shipments in real-time. The application is built using Vue.js for the frontend, Node.js for the backend, and MySQL for the database, ensuring a robust and scalable solution for tracking shipments efficiently.
@@ -51,7 +51,7 @@ Automated email or SMS notifications to clients when there are updates on their 
 Reporting
 
 Generate detailed reports on shipment statuses, delivery times, and more.
-Admins can export reports in multiple formats (PDF, Excel) for further analysis.
+Admins can export reports in multiple formats ( Excel) for further analysis.
 Technical Stack
 Frontend
 
