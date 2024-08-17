@@ -27,3 +27,43 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+
+Shipment Tracking System
+Description
+The Shipment Tracking System is a web application designed to streamline the process of tracking shipments. The system enables both staff members and clients to monitor the status and location of shipments in real-time. The application is built using Vue.js for the frontend, Node.js for the backend, and MySQL for the database, ensuring a robust and scalable solution for tracking shipments efficiently.
+
+Key Features
+User Authentication
+
+Secure login and access for staff members and clients using JWT.
+Shipment Tracking
+
+Clients can enter a tracking number to view the current status and location of their shipments.
+Admin Panel
+
+A dashboard for admin users to manage shipments.
+Admins can add new shipments, update details, and mark shipments as delivered.
+Notifications
+
+Automated email or SMS notifications to clients when there are updates on their shipments (e.g., out for delivery, delivered).
+Reporting
+
+Generate detailed reports on shipment statuses, delivery times, and more.
+Admins can export reports in multiple formats (PDF, Excel) for further analysis.
+Technical Stack
+Frontend
+
+Vue.js (Preferred) or any other frontend framework with state management.
+Backend
+
+Node.js for RESTful API development.
+Database
+
+MySQL for data storage and management.
+Additional Tools
+
+Axios for API calls.
+JWT for secure authentication.
+Nodemailer for sending email notifications.
