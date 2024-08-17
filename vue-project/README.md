@@ -50,10 +50,9 @@ Notifications
 Generate detailed reports on shipment statuses, delivery times, and more.
 Admins can export reports in multiple formats ( Excel) for further analysis.
 Technical Stack
-Frontend
 
-Vue.js (Preferred) or any other frontend framework with state management.
-Backend
+Frontend
+Vue.js
 
 
 Installation
