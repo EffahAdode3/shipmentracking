@@ -36,18 +36,15 @@ The Shipment Tracking System is a web application designed to streamline the pro
 Key Features
 User Authentication
 
-Secure login and access for staff members and clients using JWT.
-Shipment Tracking
+1 Secure login and access for staff members and clients .
 
-Clients can enter a tracking number to view the current status and location of their shipments.
+
+2 Clients can enter a tracking number to view the current status and location of their shipments.
+
 Admin Panel
-
-A dashboard for admin users to manage shipments.
-Admins can add new shipments, update details, and mark shipments as delivered.
+1 A dashboard for admin users to manage shipments.
+2 Admins can add new shipments, update details, and mark shipments as delivered.
 Notifications
-
-Automated email or SMS notifications to clients when there are updates on their shipments (e.g., out for delivery, delivered).
-Reporting
 
 Generate detailed reports on shipment statuses, delivery times, and more.
 Admins can export reports in multiple formats ( Excel) for further analysis.
